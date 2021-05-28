@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_appointment"
+        app:showAsAction="always"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/add_appointment"
+        app:showAsAction="always"
+        android:title="Add"
+        android:icon="@drawable/ic_add" />
+
+    <item
+        android:id="@+id/refresh_appointments"
+        app:showAsAction="always"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh" />
+
+<!--    <item                                      -->
+<!--        android:id="@+id/deleted_appointments" -->
+<!--        app:showAsAction="always"              -->
+<!--        android:title="Trash bin"              -->
+<!--        android:icon="@drawable/ic_delete" />  -->
+
+    <item
+        android:id="@+id/log_out"
+        app:showAsAction="never"
+        android:title="@string/log_out"
+        android:orderInCategory="2" />
+
+</menu>

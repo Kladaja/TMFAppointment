@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">Appointment</string>
+
+    <!--  Login  -->
+    <string name="welcome">Welcome</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <!--  Sign up  -->
+    <string name="sign_up">Sign up</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password_again">Password again</string>
+
+    <!--  Appointments  -->
+    <string name="appointment">Appointment</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="last_update">Last update</string>
+    <string name="valid_for">Valid for</string>
+    <string name="status">Status</string>
+    <string name="date_placeholder">2020-02-20 20:20:20</string>
+    <string name="category">Category</string>
+    <string name="note">Note</string>
+    <string name="place">Place</string>
+    <string name="date">Date</string>
+    <string name="state">State</string>
+    <string name="contact">Contact</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="contact_entity">Contact Entity</string>
+    <string name="contact_medium">Contact Medium</string>
+    <string name="edit">Edit</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log out</string>
+
+    <!--  Appointment categories  -->
+    <string-array name="appointmen_categories">
+        <item>Beauty</item>
+        <item>Car</item>
+        <item>Education</item>
+        <item>Entertainment</item>
+        <item>Event</item>
+        <item>Family</item>
+        <item>Finance</item>
+        <item>Food</item>
+        <item>Health</item>
+        <item>Hobby</item>
+        <item>Shopping</item>
+        <item>Social</item>
+        <item>Sport</item>
+        <item>Travel</item>
+        <item>Work</item>
+    </string-array>
+
+    <!--  Edit appointments  -->
+    <string name="edit_appointment">Edit appointment</string>
+    <string name="cancel">Cancel</string>
+    <string name="finish">Finish</string>
+
+    <!-- Test data -->
+    <array name="example_banner">
+        <item>@drawable/hairdresser_bg_01</item>
+        <item>@drawable/car_service_bg_01</item>
+        <item>@drawable/education_bg_01</item>
+        <item>@drawable/entertainment_bg_01</item>
+        <item>@drawable/event_bg_01</item>
+        <item>@drawable/family_bg_01</item>
+        <item>@drawable/finance_bg_01</item>
+        <item>@drawable/food_bg_01</item>
+        <item>@drawable/doctor_bg_01</item>
+        <item>@drawable/band_rehearsal_bg_01</item>
+        <item>@drawable/groceries_bg_01</item>
+        <item>@drawable/party_bg_01</item>
+        <item>@drawable/workout_bg_01</item>
+        <item>@drawable/hiking_bg_01</item>
+        <item>@drawable/meeting_bg_01</item>
+    </array>
+
+    <string-array name="example_title">
+        <item>Hairdresser</item>
+        <item>Bring car to service</item>
+        <item>Astrology class</item>
+        <item>Cinema</item>
+        <item>Celine Dion concert</item>
+        <item>Visit grandparents</item>
+        <item>Visit insurer</item>
+        <item>Lunch with Erica</item>
+        <item>Doctor</item>
+        <item>Band rehearsal</item>
+        <item>Groceries</item>
+        <item>Roberts birthday party</item>
+        <item>Yoga</item>
+        <item>Hiking</item>
+        <item>Meeting</item>
+    </string-array>
+
+    <string-array name="example_description">
+        <item>Saying goodbye to those dead ends!</item>
+        <item>Something is wrong with the tail lights</item>
+        <item>Studying about Libras this time!</item>
+        <item>Watching horror or romance this time?</item>
+        <item>Near far wherever you are</item>
+        <item>Hope they are doing right</item>
+        <item>Taking out life insurance</item>
+        <item>Its been a while since the last gossip session</item>
+        <item>Should consult about the constant earache</item>
+        <item>Tesla is not coming this time</item>
+        <item>Maybe i should go a bit earlier</item>
+        <item>It will be fun!</item>
+        <item>Hope it wont hurt this time</item>
+        <item>Finally back to the nature</item>
+        <item>Team building or whatever this is</item>
+    </string-array>
+
+    <string-array name="example_note">
+        <item>Dont forget the hair-dye at home!</item>
+        <item></item>
+        <item></item>
+        <item>Horror</item>
+        <item>I believe that the heart does go on</item>
+        <item></item>
+        <item>Hope i wont need it</item>
+        <item></item>
+        <item></item>
+        <item>I-E-A-I-A-I-O?</item>
+        <item>POTATOES!</item>
+        <item>Dont forget the balloons!</item>
+        <item></item>
+        <item></item>
+        <item>Hooray</item>
+    </string-array>
+
+    <string-array name="example_place">
+        <item>Hofteigur</item>
+        <item>Sledhbrjotur</item>
+        <item>Hrafnabjorg</item>
+        <item>Vallanes</item>
+        <item>Modhrudalur</item>
+        <item>Hallormsstadhur</item>
+        <item>Heydalir</item>
+        <item>Berunes</item>
+        <item>Bjarnanes</item>
+        <item>Kalfatellsstadhur</item>
+        <item>Skaftafell</item>
+        <item>Grafarkirkjka</item>
+        <item>Hrafnagilshverfi</item>
+        <item>Sledhbrjotur</item>
+        <item>Hofteigur</item>
+    </string-array>
+
+    <string-array name="example_validFor">
+        <item>2021-06-07 10:00:00</item>
+        <item>2021-06-11 09:30:00</item>
+        <item>2021-06-09 11:00:00</item>
+        <item>2021-06-08 20:00:00</item>
+        <item>2021-06-26 19:30:00</item>
+        <item>2021-06-05 09:00:00</item>
+        <item>2021-06-10 14:00:00</item>
+        <item>2021-06-08 13:00:00</item>
+        <item>2021-06-15 08:00:00</item>
+        <item>2021-06-04 16:00:00</item>
+        <item>2021-06-12 11:00:00</item>
+        <item>2021-06-20 19:00:00</item>
+        <item>2021-06-14 17:30:00</item>
+        <item>2021-06-19 10:00:00</item>
+        <item>2021-06-07 13:30:00</item>
+    </string-array>
+
+    <string-array name="example_contactPerson">
+        <item>Dagny Gunnhildur</item>
+        <item>Alex Agnar</item>
+        <item>Bjarki Hilmar</item>
+        <item>Iris Borghildur</item>
+        <item>Pala Unnur</item>
+        <item>Freyr Albert</item>
+        <item>Ingvar Andres</item>
+        <item>Rakel Erica</item>
+        <item>Erlendur Bjartur</item>
+        <item>Thomas Alva Edison</item>
+        <item>Katrin Alda</item>
+        <item>Robert Baldur</item>
+        <item>Aslang Audur</item>
+        <item>Ragna Soffia</item>
+        <item>Sigmundur Johannes</item>
+    </string-array>
+
+    <string-array name="example_contactEntity">
+        <item>Beauty Studio Bella</item>
+        <item>Diesel Center</item>
+        <item>Chartwell International School</item>
+        <item>CineStar Cinemas</item>
+        <item>At home</item>
+        <item>At grandmas</item>
+        <item>DDOB insurance</item>
+        <item>Rosetto Caffe and Restaurant</item>
+        <item>Hospital St. Vucic</item>
+        <item>At Edison</item>
+        <item>CBA</item>
+        <item>At Bob</item>
+        <item>Top Gym</item>
+        <item>Fedora Hiking</item>
+        <item>Pluto Caffe and Restaurant</item>
+    </string-array>
+
+    <string-array name="example_contactMedium">
+        <item>dagny[at]bella.com</item>
+        <item>alex[at]diesel.com</item>
+        <item>bjarki[at]chartwell.com</item>
+        <item>iris[at]cinestar.com</item>
+        <item>me[at]home.com</item>
+        <item>grandma[at]gmail.com</item>
+        <item>freyr[at]ddob.com</item>
+        <item>ingvar[at]rosetto.com</item>
+        <item>aleksandar[at]vucic.rs</item>
+        <item>tom.edison[at]gmail.com</item>
+        <item>katrin[at]cba.abc</item>
+        <item>bob[at]gmail.com</item>
+        <item>aslang[at]topgym.com</item>
+        <item>ragna[at]fedora.com</item>
+        <item>sigmundur[at]pluto.com</item>
+    </string-array>
+
+    <string-array name="example_category">
+        <item>Beauty</item>
+        <item>Car</item>
+        <item>Education</item>
+        <item>Entertainment</item>
+        <item>Event</item>
+        <item>Family</item>
+        <item>Finance</item>
+        <item>Food</item>
+        <item>Health</item>
+        <item>Hobby</item>
+        <item>Shopping</item>
+        <item>Social</item>
+        <item>Sport</item>
+        <item>Travel</item>
+        <item>Work</item>
+    </string-array>
+</resources>

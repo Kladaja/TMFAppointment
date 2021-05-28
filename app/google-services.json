@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "176594665649",
+    "project_id": "tmfappointment",
+    "storage_bucket": "tmfappointment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176594665649:android:7e507c1a302ba3e8bb2290",
+        "android_client_info": {
+          "package_name": "com.example.tmfappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176594665649-6g559vi1f4lm0aqafltbqil0lr33lihv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tmfappointment",
+            "certificate_hash": "99edebfd41e449486848b190093900fe9cd28dd7"
+          }
+        },
+        {
+          "client_id": "176594665649-s77s59gkkce2hiuaeu9jepj4lus1mci7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs4IJVHmuQITn3lhylLojWk456wCRbJEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176594665649-s77s59gkkce2hiuaeu9jepj4lus1mci7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
