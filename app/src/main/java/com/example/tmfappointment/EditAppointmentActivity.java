@@ -93,7 +93,6 @@ public class EditAppointmentActivity extends AppCompatActivity implements Adapte
 
     public void finish(View view) {
         Resources resources = this.getResources();
-        final int resourceID = resources.getIdentifier("basic_bg", "drawable", this.getPackageName());
 
         String appointmentExternalIDStr = appointmentExternalIDET.getText().toString();
         String appointmentDescriptionStr =  appointmentDescriptionET.getText().toString();
@@ -103,11 +102,63 @@ public class EditAppointmentActivity extends AppCompatActivity implements Adapte
         String appointmentContactPersonStr =  appointmentContactPersonET.getText().toString();
         String appointmentContactEntityStr =  appointmentContactEntityET.getText().toString();
         String appointmentContactMediumStr =  appointmentContactMediumET.getText().toString();
-        String appoinmentCategoryStr =  appoinmentCategoryS.getSelectedItem().toString();
+        String appointmentCategoryStr =  appoinmentCategoryS.getSelectedItem().toString();
+
+        String bannerName = "basic_bg";
+
+        switch (appointmentCategoryStr) {
+            case "Beauty":
+                bannerName = "hairdresser_bg_01";
+                break;
+            case "Car":
+                bannerName = "car_service_bg_01";
+                break;
+            case "Education":
+                bannerName = "education_bg_01";
+                break;
+            case "Entertainment":
+                bannerName = "entertainment_bg_01";
+                break;
+            case "Event":
+                bannerName = "event_bg_01";
+                break;
+            case "Family":
+                bannerName = "family_bg_01";
+                break;
+            case "Finance":
+                bannerName = "finance_bg_01";
+                break;
+            case "Food":
+                bannerName = "food_bg_01";
+                break;
+            case "Health":
+                bannerName = "doctor_bg_01";
+                break;
+            case "Hobby":
+                bannerName = "band_rehearsal_bg_01";
+                break;
+            case "Shopping":
+                bannerName = "groceries_bg_01";
+                break;
+            case "Social":
+                bannerName = "party_bg_01";
+                break;
+            case "Sport":
+                bannerName = "workout_bg_01";
+                break;
+            case "Travel":
+                bannerName = "hiking_bg_01";
+                break;
+            case "Work":
+                bannerName = "meeting_bg_01";
+                break;
+        }
+
+        final int resourceID = resources.getIdentifier(bannerName, "drawable", this.getPackageName());
 
         mAppointments.add(new Appointment(
                 resourceID,
-                appoinmentCategoryStr,
+                appointmentCategoryStr,
                 appointmentContactMediumStr,
                 appointmentDescriptionStr,
                 appointmentExternalIDStr,
